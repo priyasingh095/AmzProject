@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="amazonAutomation.AMZProject.TestCase1_LoginToAmazon">
+        <methods>
+          <include name="WithValidCredential"/>
+          <include name="launch"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- amazonAutomation.AMZProject.TestCase1_LoginToAmazon -->
+      <class name="amazonAutomation.AMZProject.TestCase2_LoginToAmazonandLogout">
+        <methods>
+          <include name="launch"/>
+          <include name="WithValidCredentialandLogout"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- amazonAutomation.AMZProject.TestCase2_LoginToAmazonandLogout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

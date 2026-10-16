@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="engine" value="webkit"></parameter>
+    <classes>
+    
+       <class name="amazonAutomation.AMZProject.TestCase1_LoginToAmazon"/>
+      <class name="amazonAutomation.AMZProject.TestCase2_LoginToAmazonandLogout"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
